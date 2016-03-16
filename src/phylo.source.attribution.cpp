@@ -5,6 +5,13 @@
 // [[Rcpp::plugins(cpp11)]]
 // [[Rcpp::depends(RcppArmadillo, BH)]]
 
+#include <iostream>
+#include <vector>
+#include <boost/numeric/odeint.hpp>
+#include <boost/numeric/odeint/stepper/euler.hpp>
+
+#include <RcppArmadillo.h>
+
 // #include "colik.hpp" 
 
 

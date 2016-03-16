@@ -5,7 +5,7 @@
 // [[Rcpp::plugins(cpp11)]]
 // [[Rcpp::depends(RcppArmadillo, BH)]]
 
-#include "colik.hpp" 
+// #include "colik.hpp" 
 
 
 using namespace std;
